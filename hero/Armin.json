@@ -1,0 +1,201 @@
+{
+    "name": "armin",
+    "rarity": 5,
+    "classType": "knight",
+    "element": "earth",
+    "zodiac": "capricorn",
+    "specialtyChangeName": "",
+    "selfSkillBarName": "",
+    "background": [
+        "A particulary ticklish feline Suin, Armin is the valiant and cheerful Commander of the Longtail Company.However, she is easily tempted, and quickly conviced to go along with the whims of her fellow mercenaries. She love to collect earrings but since her ears are so sensitive she's unable to wear them."
+    ],
+    "relations": [
+        { "hero": "kluri", "relationType": "trust" },
+        { "hero": "basar", "relationType": "trust" },
+		{ "hero": "cartuja", "relationType": "trust" },
+		{ "hero": "otillie", "relationType": "trust" },
+        { "hero": "cidd", "relationType": "rival" }
+    ],
+    "stats": {
+        "base": {
+            "cp": 2370,
+            "atk": 201,
+            "hp": 734,
+            "spd": 91,
+            "def": 89,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 9,
+            "dac": 5
+        },
+        "max": {
+            "cp": 16066,
+            "atk": 694,
+            "hp": 5987,
+            "spd": 91,
+            "def": 765,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
+            "efr": 9,
+            "dac": 5
+        }
+    },
+    "skills": [
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "selfSkillBarValue": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 0,
+            "name": "Takedown",
+            "soulAcquire": 1,
+            "description": "Attacks with a large shield, with a 25% chance of stunning for 1 turn. When the enemy is debuffed, the chance will increase. Damage dealt increases proportional to the caster's Defense.",
+            "enhancement": [
+			    { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
+                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
+                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 12000 } , { "item": "molagora", "qty": 4 }] },
+                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "slimme jelly", "qty": 1} , { "item": "molagora", "qty": 3 }] },
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 26000 } , { "item": "slimme jelly", "qty": 2} , { "item": "molagora", "qty": 4 }] },
+				{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "slimme jelly", "qty": 5} , { "item": "molagorago", "qty": 1 }] },
+				{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "dragon's wrath", "qty": 2} , { "item": "molagoragora", "qty": 1 }] }
+            ],
+            "buffs": [],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 0,
+            "soulBurnEffect": "",
+            "awakenUpgrade": false,
+            "cooldown": 3,
+            "name": "Flash of Light",
+            "soulAcquire": 2,
+            "description": "Releases a bright light to attack all enemies, with a 35% chance to decrease Hit Chance for 2 turns, and inflict poison for 3 turns. Increases Defense of the caster for 1 turn.",
+            "enhancement": [
+                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
+                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
+                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "slimme jelly", "qty": 1} , { "item": "molagora", "qty": 3 }] },
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 26000 } , { "item": "slimme jelly", "qty": 2} , { "item": "molagora", "qty": 4 }] },
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 40000 } , { "item": "slimme jelly", "qty": 4} , { "item": "molagorago", "qty": 1 }] },
+				{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "dragon's wrath", "qty": 2} , { "item": "molagoragora", "qty": 1 }] }
+            ],
+            "buffs": ["stic_def_up"],
+            "debuffs": []
+        },
+        {
+            "isPassive": false,
+            "soulBurn": 10,
+            "soulBurnEffect": "Skill cooldown decreases by 2 turns.",
+            "awakenUpgrade": true,
+            "cooldown": 5,
+            "name": "Shield Wall",
+            "soulAcquire": 1,
+            "description": "Covers all allies with the Shield of Light and grants a barrier for 3 turns, recovering Health. Barrier strenght is proportional to caster's Defense, and amount recovered is proportional to the target's max health.",
+            "enhancement": [
+                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "slimme jelly", "qty": 3} , { "item": "molagora", "qty": 3 }] },
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 130000 } , { "item": "dragon's wrath", "qty": 1} , { "item": "molagoragora", "qty": 1 }] }
+            ],
+            "buffs": [],
+            "debuffs": []
+        }
+    ],
+    "specialtySkill": {
+        "name": "Agile Mercenaries",
+        "description": "Handles requests with diligence and efficiency.",
+        "dispatch": ["[All missions] type mission"],
+        "enhancement": ["Time requiered -5%"],
+        "stats": { "command": 78, "charm": 22, "politics": 38 }
+    },
+    "memoryImprint": [
+        {
+            "rank": "d",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "c",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "b",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "a",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "s",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "ss",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        },
+        {
+            "rank": "sss",
+            "status": {
+                "type": "hp",
+                "increase": 0
+            }
+        }
+    ],
+    "awakening": [
+        {
+            "rank": 1,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "def": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "life-rune", "qty": 8 }]
+        },
+        {
+            "rank": 2,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "efr": "3%" }, { "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "life-rune", "qty": 12 }, { "item": "greater-life-rune", "qty": 2 }]
+        },
+        {
+            "rank": 3,
+            "skillUpgrade": true,
+            "statsIncrease": [{ "atk": 20 }, { "hp": 60 }],
+            "resources": [{ "item": "life-rune", "qty": 17 }, { "item": "greater-life-rune", "qty": 8 }]
+        },
+        {
+            "rank": 4,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "def": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "greater-life-rune", "qty": 8 }, { "item": "epic-life-rune", "qty": 1 }]
+        },
+        {
+            "rank": 5,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "def": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-life-rune", "qty": 5 }, { "item": "cursed-ashes", "qty": 12 }]
+        },
+        {
+            "rank": 6,
+            "skillUpgrade": false,
+            "statsIncrease": [{ "efr": "6%" }, { "atk": 30 }, { "hp": 80 }],
+            "resources": [{ "item": "epic-life-rune", "qty": 8 }, { "item": "dragon's-wrath", "qty": 8 }]
+        }
+    ]
+}
