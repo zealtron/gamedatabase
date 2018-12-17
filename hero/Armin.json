@@ -18,23 +18,23 @@
     ],
     "stats": {
         "base": {
-            "cp": 2370,
-            "atk": 201,
-            "hp": 734,
+            "cp": 1273,
+            "atk": 54,
+            "hp": 326,
             "spd": 91,
-            "def": 89,
+            "def": 80,
             "chc": 15,
             "chd": 150,
             "eff": 0,
-            "efr": 9,
+            "efr": 0,
             "dac": 5
         },
         "max": {
-            "cp": 16066,
-            "atk": 694,
-            "hp": 5987,
+            "cp": 16567,
+            "atk": 721,
+            "hp": 6189,
             "spd": 91,
-            "def": 765,
+            "def": 785,
             "chc": 15,
             "chd": 150,
             "eff": 0,
@@ -63,7 +63,7 @@
 				{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "dragon's wrath", "qty": 2} , { "item": "molagoragora", "qty": 1 }] }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": ["stic_stun"]
         },
         {
             "isPassive": false,
@@ -83,7 +83,7 @@
 				{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "dragon's wrath", "qty": 2} , { "item": "molagoragora", "qty": 1 }] }
             ],
             "buffs": ["stic_def_up"],
-            "debuffs": []
+            "debuffs": ["stic_blind","stic_dot"]
         },
         {
             "isPassive": false,
@@ -98,7 +98,7 @@
                 { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "slimme jelly", "qty": 3} , { "item": "molagora", "qty": 3 }] },
                 { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 130000 } , { "item": "dragon's wrath", "qty": 1} , { "item": "molagoragora", "qty": 1 }] }
             ],
-            "buffs": [],
+            "buffs": ["stic_protect"],
             "debuffs": []
         }
     ],
