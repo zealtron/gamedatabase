@@ -1,13 +1,13 @@
 {
-    "name": "armin",
-    "rarity": 5,
+    "name": "Armin",
+    "rarity": 4,
     "classType": "knight",
     "element": "earth",
     "zodiac": "capricorn",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
     "background": [
-        "A particulary ticklish feline Suin, Armin is the valiant and cheerful Commander of the Longtail Company.However, she is easily tempted, and quickly conviced to go along with the whims of her fellow mercenaries. She love to collect earrings but since her ears are so sensitive she's unable to wear them."
+        "A particularly ticklish feline Suin, Armin is the valiant and cheerful Commander of the Longtail Company.However, she is easily tempted, and quickly conviced to go along with the whims of her fellow mercenaries. She love to collect earrings but since her ears are so sensitive she's unable to wear them."
     ],
     "relations": [
         { "hero": "kluri", "relationType": "trust" },
@@ -18,23 +18,23 @@
     ],
     "stats": {
         "base": {
-            "cp": 2370,
-            "atk": 201,
-            "hp": 734,
+            "cp": 1273,
+            "atk": 54,
+            "hp": 326,
             "spd": 91,
-            "def": 89,
+            "def": 80,
             "chc": 15,
             "chd": 150,
             "eff": 0,
-            "efr": 9,
+            "efr": 0,
             "dac": 5
         },
         "max": {
-            "cp": 16066,
-            "atk": 694,
-            "hp": 5987,
+            "cp": 16567,
+            "atk": 721,
+            "hp": 6189,
             "spd": 91,
-            "def": 765,
+            "def": 785,
             "chc": 15,
             "chd": 150,
             "eff": 0,
@@ -54,22 +54,22 @@
             "soulAcquire": 1,
             "description": "Attacks with a large shield, with a 25% chance of stunning for 1 turn. When the enemy is debuffed, the chance will increase. Damage dealt increases proportional to the caster's Defense.",
             "enhancement": [
-			    { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
+	        { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
                 { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
-                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 12000 } , { "item": "molagora", "qty": 4 }] },
-                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "slimme jelly", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 26000 } , { "item": "slimme jelly", "qty": 2} , { "item": "molagora", "qty": 4 }] },
-				{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "slimme jelly", "qty": 5} , { "item": "molagorago", "qty": 1 }] },
-				{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "dragon's wrath", "qty": 2} , { "item": "molagoragora", "qty": 1 }] }
+                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 12000 } , { "item": "molagora", "qty": 3 }] },
+                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "slime-jelly", "qty": 1} , { "item": "molagora", "qty": 3 }] },
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 30000 } , { "item": "slime-jelly", "qty": 2} , { "item": "molagora", "qty": 4 }] },
+		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "slime-jelly", "qty": 5} , { "item": "molagorago", "qty": 1 }] },
+		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "dragons-wrath", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
             ],
             "buffs": [],
-            "debuffs": []
+            "debuffs": ["stic_stun"]
         },
         {
             "isPassive": false,
             "soulBurn": 0,
             "soulBurnEffect": "",
-            "awakenUpgrade": false,
+            "awakenUpgrade": true,
             "cooldown": 3,
             "name": "Flash of Light",
             "soulAcquire": 2,
@@ -80,10 +80,10 @@
                 { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "slimme jelly", "qty": 1} , { "item": "molagora", "qty": 3 }] },
                 { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 26000 } , { "item": "slimme jelly", "qty": 2} , { "item": "molagora", "qty": 4 }] },
                 { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 40000 } , { "item": "slimme jelly", "qty": 4} , { "item": "molagorago", "qty": 1 }] },
-				{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "dragon's wrath", "qty": 2} , { "item": "molagoragora", "qty": 1 }] }
+		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "dragon's wrath", "qty": 2} , { "item": "molagoragora", "qty": 1 }] }
             ],
             "buffs": ["stic_def_up"],
-            "debuffs": []
+            "debuffs": ["stic_blind","stic_dot"]
         },
         {
             "isPassive": false,
@@ -98,7 +98,7 @@
                 { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "slimme jelly", "qty": 3} , { "item": "molagora", "qty": 3 }] },
                 { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 130000 } , { "item": "dragon's wrath", "qty": 1} , { "item": "molagoragora", "qty": 1 }] }
             ],
-            "buffs": [],
+            "buffs": ["stic_protect"],
             "debuffs": []
         }
     ],
