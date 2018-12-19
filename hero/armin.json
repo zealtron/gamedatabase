@@ -7,13 +7,13 @@
     "specialtyChangeName": "",
     "selfSkillBarName": "",
     "background": [
-        "A particularly ticklish feline Suin, Armin is the valiant and cheerful Commander of the Longtail Company.However, she is easily tempted, and quickly conviced to go along with the whims of her fellow mercenaries. She love to collect earrings but since her ears are so sensitive she's unable to wear them."
+        "A particularly ticklish feline Suin, Armin is the valiant and cheerful Commander of the Longtail Company.However, she is easily tempted, and quickly convinced to go along with the whims of her fellow mercenaries. She loves to collect earrings but since her ears are so sensitive she's unable to wear them."
     ],
     "relations": [
         { "hero": "kluri", "relationType": "trust" },
         { "hero": "basar", "relationType": "trust" },
-		{ "hero": "cartuja", "relationType": "trust" },
-		{ "hero": "otillie", "relationType": "trust" },
+	{ "hero": "cartuja", "relationType": "trust" },
+	{ "hero": "otillie", "relationType": "trust" },
         { "hero": "cidd", "relationType": "rival" }
     ],
     "stats": {
@@ -58,7 +58,7 @@
                 { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
                 { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 12000 } , { "item": "molagora", "qty": 3 }] },
                 { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "slime-jelly", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 30000 } , { "item": "slime-jelly", "qty": 2} , { "item": "molagora", "qty": 4 }] },
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 30000 } , { "item": "slime-jelly", "qty": 2} , { "item": "molagora", "qty": 5 }] },
 		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 45000 } , { "item": "slime-jelly", "qty": 5} , { "item": "molagorago", "qty": 1 }] },
 		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "dragons-wrath", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
             ],
@@ -76,11 +76,11 @@
             "description": "Releases a bright light to attack all enemies, with a 35% chance to decrease Hit Chance for 2 turns, and inflict poison for 3 turns. Increases Defense of the caster for 1 turn.",
             "enhancement": [
                 { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 4000 } , { "item": "molagora", "qty": 1 }] },
-                { "description": "+5% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
-                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "slimme jelly", "qty": 1} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 26000 } , { "item": "slimme jelly", "qty": 2} , { "item": "molagora", "qty": 4 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 40000 } , { "item": "slimme jelly", "qty": 4} , { "item": "molagorago", "qty": 1 }] },
-		{ "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 160000 } , { "item": "dragon's wrath", "qty": 2} , { "item": "molagoragora", "qty": 1 }] }
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 8000 } , { "item": "molagora", "qty": 2 }] },
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 17000 } , { "item": "slime-jelly", "qty": 1} , { "item": "molagora", "qty": 3 }] },
+                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 30000 } , { "item": "slime-jelly", "qty": 2} , { "item": "molagora", "qty": 5 }] },
+                { "description": "+10% effect chance", "resources": [{ "item": "gold", "qty": 40000 } , { "item": "slime-jelly", "qty": 4} , { "item": "molagorago", "qty": 1 }] },
+		{ "description": "+15% damage dealt", "resources": [{ "item": "gold", "qty": 100000 } , { "item": "dragons-wrath", "qty": 2} , { "item": "molagorago", "qty": 2 }] }
             ],
             "buffs": ["stic_def_up"],
             "debuffs": ["stic_blind","stic_dot"]
@@ -89,14 +89,14 @@
             "isPassive": false,
             "soulBurn": 10,
             "soulBurnEffect": "Skill cooldown decreases by 2 turns.",
-            "awakenUpgrade": true,
+            "awakenUpgrade": false,
             "cooldown": 5,
             "name": "Shield Wall",
             "soulAcquire": 1,
             "description": "Covers all allies with the Shield of Light and grants a barrier for 3 turns, recovering Health. Barrier strenght is proportional to caster's Defense, and amount recovered is proportional to the target's max health.",
             "enhancement": [
-                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "slimme jelly", "qty": 3} , { "item": "molagora", "qty": 3 }] },
-                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 130000 } , { "item": "dragon's wrath", "qty": 1} , { "item": "molagoragora", "qty": 1 }] }
+                { "description": "+5% effect chance", "resources": [{ "item": "gold", "qty": 27000 } , { "item": "slime-jelly", "qty": 3} , { "item": "molagora", "qty": 3 }] },
+                { "description": "+10% damage dealt", "resources": [{ "item": "gold", "qty": 130000 } , { "item": "dragons-wrath", "qty": 1} , { "item": "molagorago", "qty": 1 }] }
             ],
             "buffs": ["stic_protect"],
             "debuffs": []
@@ -114,7 +114,7 @@
             "rank": "d",
             "status": {
                 "type": "hp",
-                "increase": 0
+                "increase": "2.4%"
             }
         },
         {
