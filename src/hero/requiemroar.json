@@ -6,7 +6,7 @@
     "zodiac": "sagittarius",
     "specialtyChangeName": "",
     "selfSkillBarName": "",
-    "background": "A banshee formed from a corrupted soul. She sings a bizarrely pleasant song of brutal murder and mourning. Her funeral dirge is for the enemy she is about to kill. ",
+    "background": "A Banshee formed from a corrupted soul. She sings a bizarrely pleasant song of brutal murder and mourning. Her funeral dirge is for the enemy she is about to kill.",
     "relations": [
         {
             "hero": "gloomyrain",
@@ -27,50 +27,50 @@
     ],
     "stats": {
         "base": {
-            "cp": "1029",
-            "atk": "52",
-            "hp": "2884",
-            "spd": "100",
-            "def": "67",
-            "chc": "15",
-            "chd": "150",
+            "cp": 1029,
+            "atk": 52,
+            "hp": 192,
+            "spd": 100,
+            "def": 67,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
-            "dac": "5"
+            "dac": 5
         },
         "max": {
-            "cp": "13345",
-            "atk": "827",
-            "hp": "4046",
-            "spd": "106",
-            "def": "613",
-            "chc": "15",
-            "chd": "150",
+            "cp": 13345,
+            "atk": 827,
+            "hp": 4046,
+            "spd": 106,
+            "def": 613,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
         },
         "max5": {
-            "cp": "9425",
-            "atk": "473",
-            "hp": 0,
-            "spd": "100",
-            "def": "494",
-            "chc": "15",
-            "chd": "150",
+            "cp": 9425,
+            "atk": 473,
+            "hp": 2884,
+            "spd": 100,
+            "def": 494,
+            "chc": 15,
+            "chd": 150,
             "eff": 0,
             "efr": 0,
             "dac": 5
         },
         "max6": {
-            "cp": "11751",
-            "atk": "589",
-            "hp": "3626",
-            "spd": "100",
-            "def": "613",
-            "chc": "15",
-            "chd": "150",
-            "eff": "0",
+            "cp": 11751,
+            "atk": 589,
+            "hp": 3626,
+            "spd": 100,
+            "def": 613,
+            "chc": 15,
+            "chd": 150,
+            "eff": 0,
             "efr": 0,
             "dac": 5
         }
@@ -84,8 +84,8 @@
             "awakenUpgrade": false,
             "cooldown": 0,
             "name": "Insanity",
-            "soulAcquire": "1",
-            "description": "Claws the enemy, with a 50% chance to decrease attack for 1 turn. ",
+            "soulAcquire": 1,
+            "description": "Claws the enemy, with a 50% chance to decrease Attack for 1 turn.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -101,7 +101,7 @@
                     ]
                 },
                 {
-                    "description": "+10% damage dealt",
+                    "description": "+10% effect chance",
                     "resources": [
                         {
                             "item": "molagora",
@@ -179,7 +179,7 @@
             "cooldown": 0,
             "name": "Blood Feast",
             "soulAcquire": 0,
-            "description": "All allies absorb 5% of the damage they each inflict as Health and recover 15% Heath every time an enemy dies. Health recovery upon enemy death can only be activated once per turn.  ",
+            "description": "All allies absorb 5% of the damage they each inflict as Health and recover 15% Health every time an enemy dies. Health recovery upon enemy death can only be activated once per turn.",
             "enhancement": [
                 {
                     "description": "+0.5% Healing relative to damage dealt",
@@ -264,14 +264,14 @@
         },
         {
             "isPassive": false,
-            "soulBurn": "10",
+            "soulBurn": 10,
             "selfSkillBarValue": 0,
             "soulBurnEffect": "Increases damage dealt",
             "awakenUpgrade": true,
-            "cooldown": 0,
+            "cooldown": 4,
             "name": "Dirge",
-            "soulAcquire": "2",
-            "description": "Attacks with magic, with a 75% chance to decrease Defense for 2 turns, and increases Combat Readiness of all allies by 20%. ",
+            "soulAcquire": 2,
+            "description": "Attacks with magic, with a 75% chance to decrease Defense for 2 turns, and increases Combat Readiness of all allies by 20%.",
             "enhancement": [
                 {
                     "description": "+5% damage dealt",
@@ -359,13 +359,13 @@
     ],
     "specialtySkill": {
         "name": "Impossible Request",
-        "description": "Her requests, which you can never refuse, are becoming more and more unreasonable. ",
+        "description": "Her requests, which you can never refuse, are becoming more and more unreasonable.",
         "dispatch": "[Gourmet] Attribute",
         "enhancement": "Reward Bonus +10%",
         "stats": {
-            "command": "44",
-            "charm": "55",
-            "politics": "33"
+            "command": 44,
+            "charm": 55,
+            "politics": 33
         }
     },
     "memoryImprintFormation": {
@@ -452,7 +452,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 3
+                    "atk": 0.03
                 },
                 {
                     "atk": 20
@@ -495,7 +495,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 6
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
@@ -541,7 +541,7 @@
             "skillUpgrade": false,
             "statsIncrease": [
                 {
-                    "atk": 6
+                    "atk": 0.06
                 },
                 {
                     "atk": 30
