@@ -266,7 +266,7 @@
             "isPassive": false,
             "soulBurn": 10,
             "selfSkillBarValue": 0,
-            "soulBurnEffect": "Increases damage dealt",
+            "soulBurnEffect": "Increases damage dealt.",
             "awakenUpgrade": true,
             "cooldown": 4,
             "name": "Dirge",
